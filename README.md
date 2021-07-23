@@ -12,5 +12,5 @@ Cada jogador quer adotar uma estratégia diferente de descarte de cartas:
 
 Nos diga qual é a pontuação de João e de Maria depois de 2 milhões de rounds. 
 
--> index.js - Sorteio de cartas aleatorio.
--> usingFile.js - A lista de cartas é pré-definida.
+i  - index.js - Sorteio de cartas aleatorio.
+ii - usingFile.js - A lista de cartas é pré-definida.
