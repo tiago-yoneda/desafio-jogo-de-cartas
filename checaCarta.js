@@ -1,8 +1,8 @@
-const checaCarta = (cartasNaMao, cartaSorteada) => {
-  const index = cartasNaMao.findIndex((carta) => carta.valor === cartaSorteada);
+const checkCard = (cardsOnHand, drawnCard) => {
+  const index = cardsOnHand.findIndex((card) => card.value === drawnCard);
 
   return index;
 };
 
-module.exports = checaCarta;
+module.exports = checkCard;
 

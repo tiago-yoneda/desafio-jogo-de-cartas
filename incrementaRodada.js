@@ -1,9 +1,10 @@
-const incrementaRodada = (cartasNaMao) => {
-  const cartasAtualizadas = cartasNaMao.map((carta) => {
-    carta.rodadas = carta.rodadas + 1;
-    return carta;
+const incrementRound = (cardsOnHand) => {
+  const cartasAtualizadas = cardsOnHand.map((card) => {
+    card.rounds = card.rounds + 1;
+    return card;
   });
+
   return cartasAtualizadas;
 }
 
-module.exports = incrementaRodada;
+module.exports = incrementRound;
