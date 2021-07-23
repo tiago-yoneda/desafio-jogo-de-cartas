@@ -1,9 +1,9 @@
-const encontraMaxRodadas = (maoDeCartas) => {
-  const max = maoDeCartas.reduce((prev, curr)=> {
-    return (prev.rodadas > curr.rodadas ? prev : curr);
+const findMaxRounds = (cardsOnHand) => {
+  const findMax = cardsOnHand.reduce((prev, curr)=> {
+    return (prev.rounds > curr.rounds ? prev : curr);
   });
 
-  return max;
+  return findMax;
 };
 
-module.exports = encontraMaxRodadas;
+module.exports = findMaxRounds;
